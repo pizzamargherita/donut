@@ -1,0 +1,166 @@
+/* CORE STYLES */
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;300;400;500;700;900&display=swap');
+
+:root {
+    --primary-color: white;
+    --secondary-clr: black;
+    --clr-accent: #7c2be4;
+    --clr-btn-hover:#f69ab8;
+    --clr-btn-normal: #fd7e01;
+    --ff-body: sans-serif;
+    --ff-heading:'Catamaran', sans-serif;
+    --fs-h1: 48px;
+    --fs-h2: 32px;
+    --fs-h3: 20px;
+    --fs-h4: 15px;
+    --fs-menu: 25px;
+}
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color:var(--primary-color);
+}
+
+/* GOEY MENU */
+#menu {
+    height: 100%;
+    position: fixed;
+    background-color: var(--clr-accent);
+    width: 300px;
+    transition: 1000ms all cubic-bezier(0.19, 1, 0.22, 1);
+    transform: translateX(-100%);
+    left: 70px;
+}
+
+#menu.expanded {
+    transform: translateX(0%);
+    left: 0px;
+}
+
+.menu-inner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#blob {
+    top: 0;
+    z-index: -1;
+    right: 60px;
+    transform: translateX(100%);
+    height: 100%;
+    position: absolute;
+}
+
+#blob-path {
+    height: 100%;
+    fill: var(--clr-accent);
+}
+
+.hamburger {
+    right: 20px;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-top: -10px;	
+}
+
+.hamburger .line {
+    width: 100%;
+    height: 4px;
+    background-color: #fff;
+    position: absolute;
+}
+
+.hamburger .line:nth-child(2) {
+    top: 50%;
+    margin-top: -2px;
+}
+
+.hamburger .line:nth-child(3) {
+    bottom: 0;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+    width: 80%;
+    margin-left: 10%;
+    position: absolute;
+    top: 20%;
+}
+
+ul li {
+    color: var(--primary-color);
+    font-family: var(--ff-heading);
+    font-size: var(--fs-menu);
+    font-weight: 700;
+    padding: 20px 0;
+}
+ul li:hover {
+color: var(--clr-btn-normal);
+font-weight: 900;
+}
+
+/* GOEY MENU END*/
+
+.hero-image{
+    margin-left:70px;
+    width: 100%;
+    height: 100%;
+    background: url('../img/block-01.svg') no-repeat center;
+    background-size: cover;
+}
+.container{
+    text-align: center;
+    position:fixed; 
+}
+
+/* BLOCK ONE */
+h1{
+   font-family: var(--ff-heading);
+   font-size: var(--fs-h1);
+   color: var(--primary-color);
+   text-align: left;
+   font-weight: 700;
+   margin-left: 6em;
+   margin-top: 6em;
+   line-height: 1.3;
+   letter-spacing: 2px;
+}
+.dif-heading{
+    color: var(--clr-btn-normal);
+}
+.btn-01{
+    margin-left: 7em;
+    text-decoration: none;
+    color: white;
+    background-color: var(--clr-btn-normal);
+    font-family: var(--ff-heading);
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 0.5em;
+    border-radius: 2em;
+    padding: 0.75rem 1.5rem;
+  }
+  .btn-01:hover {
+    background-color: var(--clr-btn-hover);
+    color: var(--clr-accent);
+  }
+  .logo{
+    max-width: 38%;
+    margin-top: 0.5em;
+    position:absolute;
+    left: 0.2em;
+  }
+  .donut-hero{
+    max-width: 100%;
+    margin-top: -10em;
+    position:absolute;
+    left: 60em;
+  }
+  
