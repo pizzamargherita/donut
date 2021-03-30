@@ -359,64 +359,25 @@ p{
     /* Media*/
 
  @media screen and (min-width: 375px)and (max-width: 767px) {/* Iphone 11 */
-  
-.hero-image{
-  margin-left: 1em;
-  background: url('../img/block-01.svg') no-repeat center;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-}
-.container{
-  text-align: center;
-  padding: 1em;
-
-}
-/* BLOCK ONE */
-h1{
- font-size: 20px;
- text-align: center;
- margin-top: 2em;
- margin-left: 1em;
-}
-.btn-01{
-  margin-left:70px;
-  font-size: 20px;
-}
-.logo{
-  max-width: 38%;
-  margin-top: 1em;
+  :root {
+  --fs-h1: 40px;
+  --fs-h2: 18px;
+  --fs-h3: 16px;
+  --fs-menu: 20px;
 }
 .donut-hero{
-  max-width: 100%;
-  margin-top: 10%;
-  left: 20%;
+  max-width: 50%;
+  left:20%;
+  display: flex;
 }
-/* SLIDES */
-
-.col-1-2{
-  margin-left: 10em;
-  float: left;
-  width: 50%;
+.hero-image{
+  width: 85%;
 }
-
-.product-wrap{
-  margin: 0 auto;
-  padding: 30px;
-  width: 350px;
+h1{
+  text-align: canter;
+  margin-left: 1em;
+  margin-top: 50%;
 }
-.title {
-    text-align: center;
-    margin: 0 0 12px;
-    color: var(--clr-accent);
-    font-size: 25px;
-    -webkit-transition: 0.5s ease;
-    transition: 0.5s ease;
-  }
-  .description { 
-    font-size: 18px;
-}
-
 @media  (min-width: 768px)  {/* Ipad*/
 }
 
