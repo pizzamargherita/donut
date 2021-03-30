@@ -374,9 +374,9 @@ p{
 }
 /* BLOCK ONE */
 h1{
- font-size: var(--fs-h2);
- color: var(--primary-color);
+ font-size: 20px;
  text-align: center;
+ margin-top: 2em;
  margin-left: 1em;
 }
 .btn-01{
