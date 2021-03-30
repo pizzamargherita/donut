@@ -19,9 +19,9 @@
 body, html {
     margin: 0;
     padding: 0;
-    width: 100%;
     height: 100%;
     background-color:var(--primary-color);
+    
 }
 
 /* GOEY MENU */
@@ -358,45 +358,42 @@ p{
     }
     /* Media*/
 
- @media screen and (min-width: 375px)and (max-width: 767px) {/* Iphone 11 */
-  :root {
-  --fs-h1: 40px;
-  --fs-h2: 18px;
-  --fs-h3: 16px;
-  --fs-menu: 20px;
-}
-.donut-hero{
-  max-width: 50%;
-  left:20%;
-  display: flex;
-}
-.hero-image{
-  width: 85%;
-}
-h1{
-  text-align: canter;
-  margin-left: 1em;
-  margin-top: 50%;
-}
-@media  (min-width: 768px)  {/* Ipad*/
-  .donut-hero{
-    max-width: 50%;
-    left:20%;
-    display: flex;
-}
+    @media screen and (min-width: 375px)and (max-width: 767px) {/* Iphone 11 */
+  body{
+    overflow-x: hidden;
 
-
-@media  (min-width: 1200px) {/* Ipad PRO*/
-  body, html {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-    background-color:var(--primary-color);
-}
-  .donut-hero{
-    max-width: 50%;
-    left:20%;
-    display: flex;
+  }
+      .hero-image { 
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      .donut-hero{
+        max-width: 50%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        
+    left: 0%;
   
-}
+      }
+      .container{
+        width: fit-content;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin: 0;
+
+    }
+
+    @media  (min-width: 768px)  {/* Ipad*/
+      
+    }
+    
+    
+    @media  (min-width: 1200px) {/* Ipad PRO*/
+    }
