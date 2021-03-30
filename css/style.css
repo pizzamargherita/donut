@@ -359,8 +359,8 @@ p{
     /* Media*/
 
     @media screen and (min-width: 375px)and (max-width: 767px) {/* Iphone 11 */
-      body{
-        box-sizing: border-box;
+      body,html{
+        overflow:inherit;
       }
          h1{
          font-size: 35px;
@@ -373,7 +373,8 @@ p{
          margin-left: 5em;
          }
          .container{
-         max-width: 767px;
+         max-width: 567px;
+         padding: 2em;
          }
          .wrapper{
            width: 90%;
@@ -382,6 +383,7 @@ p{
        
          .col-1-2{
            width: 100%;
+           padding: 10%;
          }
          
          .product-wrap{
@@ -398,11 +400,54 @@ p{
            text-align: center;
            margin: 0 0 12px;
            color: var(--clr-accent);
-           font-size: 25px;
+           font-size: 20px;
            
          }
-         
+  
          .description { 
-           margin: 0 0 48px; 
+           margin: 15px 0 48px; 
+           font-size: 15px;
        }
-     
+     .wrapper{
+       width:60%;
+       margin: 10px 80px 40px ;
+       padding: 2em;
+
+     }
+     .btn{
+      border-radius: 2px;
+      padding: 2em;
+      margin-top: 0.2em;
+
+     }
+     h3{
+       font-size: 25px;
+     }
+     p{
+      font-size: 18px;
+     }
+     h4{
+      font-size: 28px;
+      text-align: left;
+      font-weight: 700;
+      margin-left: 5%;
+      margin-top: 2em;
+    }
+    .white-txt{
+      font-size: 25px;
+      text-align: center;
+    }
+    .second-image h3{;
+      text-align: left;
+      float: left: ;;
+      margin-left: 5%;
+      font-size: 20px;
+    }
+    .btn-02{
+    float: left;
+    margin-right: auto;
+    margin-left: 5%;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0.5em 3em 0.5em 3em
+    }
