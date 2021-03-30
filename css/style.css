@@ -365,7 +365,6 @@ p{
         padding: 0;
         height: 100%;
         background-color:var(--primary-color);
-        
       }
          h1{
          font-size: 30px;
@@ -374,7 +373,6 @@ p{
          margin-left: 0%;
        }
        .btn-01{
-
          float: center;
          font-size: 18px;
          padding: 0.75rem 0.5rem;
@@ -460,8 +458,9 @@ p{
      }
      p{
       font-size: 18px;
+     }
     h3{
-      font-size: 20px;
+      font-size: 25px;
     
      }
      h4{
@@ -499,6 +498,7 @@ p{
     padding: 0.5em 3em 0.5em 3em
     margin-left: 0%;
     }
+
     #menu {
       height: 100%;
       position: fixed; 
@@ -514,3 +514,5 @@ p{
       padding: 3em;
   }
   
+
+
