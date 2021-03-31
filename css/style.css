@@ -367,16 +367,19 @@ p{
         background-color:var(--primary-color);
       }
          h1{
-         font-size: 30px;
-         padding: 0em;
+         font-size: 40px;
          text-align: center;
-         margin-left: 0%;
+         margin-top: 1em;
+         margin-left: 0;
+         padding: 0.2em;
        }
        .btn-01{
          float: center;
          font-size: 18px;
-         padding: 0.75rem 0.5rem;
+         padding: 1em;
          margin-left: 0;
+         margin: 0;
+         
          }
          .container{
          max-width: 767px;
@@ -389,9 +392,11 @@ p{
           margin-right: 0;
           max-width: 100%;
           height: 100%;
+          padding: 3em;
       }
       .donut-hero{
-        padding: 3em;
+        padding: 0;
+        max-width: 110%;
       }
       .second-image{
         margin-left:0;
@@ -502,7 +507,7 @@ p{
       height: 100%;
       position: fixed; 
       width: 200px;
-      left: 20px;
+      left: 50px;
       margin-left: 0%;
   }
   
