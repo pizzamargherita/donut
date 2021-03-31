@@ -353,9 +353,151 @@ h5 {
   letter-spacing: 2px;
 }
 /* Media*/
+@media screen and (min-width: 320px) and (max-width: 568px) {
+  body,
+  html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: var(--primary-color);
+    margin-left: 3%;
+  }
+  h1 {
+    font-size: 30px;
+    text-align: left;
+    margin-top: 1em;
+    margin-left: 0;
+    padding: 0em;
+  }
+  .btn-01 {
+    float: center;
+    visibility: hidden;
+  }
+  .hero-image {
+    margin-left: 3%;
+    margin-right: 0;
+    max-width: 100%;
+    height: 80%;
+    padding: 3em;
+  }
+  .donut-hero {
+    padding: 0;
+    max-width: 110%;
+  }
+  .second-image {
+    margin-left: 3%;
+    max-width: 100%;
+    padding: 2em;
+    min-height: 160vh;
+  display: flex;
+  }
 
-@media screen and (min-width: 320px) and (max-width: 736px) {
+  .col-1-2 {
+    width: 100%;
+    padding: 3em;
+    margin-left: 3%;
+    padding: 3em;
+  }
 
+  .product-wrap {
+    margin: 0 auto;
+    padding: 10px;
+    width: 100%;
+    margin-left: 0;
+  }
+  .donut-shot {
+    padding-top: 30px;
+    transition: all 0.5s ease;
+  }
+  .title {
+    text-align: center;
+    margin: 0 0 12px;
+    color: var(--clr-accent);
+    font-size: 20px;
+  }
+  .desc {
+    margin-top: 0;
+    padding: 1em 3em 0em 3em;
+    margin-left: 0em;
+    font-size: 16px;
+  }
+
+  .description {
+    margin: 15px 0 48px;
+    font-size: 15px;
+  }
+  .wrapper {
+    width: 70%;
+    margin: 0;
+    padding: 3em;
+    margin-left: 0%;
+  }
+  .btn {
+    border-radius: 2px;
+    padding: 2em;
+    margin-top: 0.2em;
+    margin-left: 0%;
+  }
+  p {
+    font-size: 18px;
+  }
+  h3 {
+    font-size: 25px;
+  }
+  h4 {
+    text-align: center;
+    float: center;
+    margin-left: 0;
+    font-size: 26px;
+    margin-left: 0;
+    font-weight: 700;
+    margin-top: 10em;
+    padding-right: 1em;
+    padding-left: 1em;
+  }
+  .white-txt {
+    font-size: 20px;
+    text-align: center;
+    margin-left: 0%;
+  }
+  .second-image h3 {
+    text-align: center;
+    float: left;
+    margin-left: 0;
+    margin-top: 0;
+    font-size: 17px;
+    padding: 0.1em;
+  }
+  .donut-block03 {
+    float: left;
+    padding: 3em;
+  }
+  .btn-02 {
+    float: left;
+    margin-left: 0;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0.5em 5em 0.5em 5em;
+  }
+
+  #menu {
+    height: 100%;
+    position: fixed;
+    width: 200px;
+    left: 50px;
+    margin-left: 0%;
+  }
+
+  .container {
+    text-align: center;
+    position: absolute;
+    margin-left: 0%;
+    padding: 3em;
+  }
+
+@media screen and (min-width: 375px) and (max-width: 736px) {
+  /* Iphone 11 */
   body,
   html {
     box-sizing: border-box;
