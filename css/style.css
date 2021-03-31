@@ -358,7 +358,7 @@ p{
     }
     /* Media*/
 
-    @media screen and (min-width: 375px)and (max-width: 767px) {/* Iphone 11 */
+    @media screen and (min-width: 375px)and (max-width: 736px) {/* Iphone 11 */
       body, html {
         box-sizing:border-box;
         margin: 0;
