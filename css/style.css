@@ -380,11 +380,7 @@ p{
          margin-left: 0;
          margin: 0;
          
-         }
-         .container{
-         max-width: 767px;
-         padding: 3em;
-         margin-left: 0%;
+         
          
          }
          .hero-image{
@@ -400,20 +396,23 @@ p{
       }
       .second-image{
         margin-left:0;
-          margin-right: 0;
-          max-width: 100%;
-          margin-left: 0%;
-      }
+    max-width: 100%;
+    height: 100%;
+    padding: 3em;
+
+    }
          .wrapper{
            width: 90%;
            margin: 20% 20%;
            margin-left: 0%;
+           
          }
        
          .col-1-2{
            width: 100%;
            padding: 3em;
            margin-left: 0%;
+          padding: 3em;
          }
          
          .product-wrap{
