@@ -100,7 +100,15 @@ ul li {
   font-weight: 700;
   padding: 20px 0;
 }
-ul li:hover {
+ul li a{
+  color: var(--primary-color);
+  font-family: var(--ff-heading);
+  font-size: var(--fs-menu);
+  font-weight: 700;
+  padding: 20px 0;
+  text-decoration: none;
+}
+ul li a:hover {
   color: var(--clr-btn-normal);
   font-weight: 900;
 }
@@ -644,3 +652,4 @@ h5 {
   }
   @media  screen and (min-device-width: 768px)  and (max-device-width: 1024px) 
 }
+dc

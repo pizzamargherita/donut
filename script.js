@@ -139,3 +139,4 @@ $(document).ready(function() {
 	});
   });
   //SLIDES ON BLOCK 2 END
+  
