@@ -244,15 +244,15 @@ margin: 0 20px;
 @media screen and (min-width: 320px) and (max-width: 568px) {
 body{
     overflow-x: hidden;
-
   }
 h1{
   font-size: 2em;
+  margin-right:5%;
 }
 
 .center{
-  margin-left:42%;
-  width:150px;
+  margin-left:25%;
+  width:250px;
   height:40px;
   top:35%;
 
@@ -278,20 +278,14 @@ padding-top: 2em;
 }
 
 .container .card .imgBx {
-  position: absolute;
   top:40%;
   transform: translateY(-30%);
-  width: 100%;
-  height: 220px;
-  transition: 0.5s;
+  
 }
 
-
 .container .card .imgBx img{
-  position: absolute;
   top: 40%;
   left: 50%;
-  transform: translate(-50%, -50%) rotate(-25deg);
   width: 220px;
 
 }
@@ -307,7 +301,6 @@ padding-top: 2em;
   font-size: 1.2em;
   
 }
-
 .container .card .contentBx p, 
 .container .card .contentBx .color {
   font-size: 0.9em;
@@ -317,5 +310,13 @@ padding-top: 2em;
 
 .container .card .contentBx a {
   font-size: 0.8em;
-
+}
+@media screen and (min-width: 375px) and (max-width: 736px) {
+  .center{
+    margin-left:25%;
+    width:250px;
+    height:40px;
+    top:30%;
+  
+  }
 }
