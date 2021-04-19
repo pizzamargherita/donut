@@ -14,80 +14,93 @@ body {
   min-height: 100vh;
   background-image: linear-gradient(30deg, #7c2be4, #8E78FF);
 }
-.slimer {
-  height: 70px;
-  width: 285px;
-  -webkit-tap-highlight-color: transparent;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
+.caixa{
+  padding: 5em;
 }
 
-button {
-  height: 100%;
-  width: 90%;
-  cursor: pointer;
-  background-color: #fd7e01;
-  background-image: linear-gradient(315deg,#fd7e01  0%, #ffad01 74%);
-  border: none;
-  border-radius: 50px 50px 30px 30px;
-  transition: 1s;
-  box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+.center{
+  position:absolute;
+  left:7%;
+  width:200px;
+  height:60px;
+  top:10%;
+  transform:translateX(-50px) translateY(-50px);
+  box-shadow: 0px 0px 15px 5px #7c2be4;
+  border-radius:60px;
 }
 
-button:active {
-  border: none;
-  outline: none;
+.center:hover{
+  box-shadow: 0px 0px 15px 1px #7c2be4;
 }
-
-button a {
-  font-family: 'Fredoka One', cursive;
-  font-size: 30px;
-  text-decoration: none;
+.center .button {
   color:white;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
+  text-decoration: none;
+  font-size: 1.4em;
+  font-weight:bold;
+  background:#fd7e01;
+  position:absolute;
+  border-radius:60px;
+  width:100%;
+  height:100%;
+  z-index:2;
+}
+.center .button:hover {
+  background:#f69ab8;
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+
+
+}
+a{
+  text-align: center;
+  line-height: 2.5em;
+}
+.center .drop{
+  transform:translateY(-10px);
+  background:#7c2be4;
+  box-shadow: 0px 0px 15px 1px #7c2be4;
+  width:20px;
+  height:20px;
+  top:100%;
+  position:absolute;
+  border-radius:50%;
+  z-index:1;
+}
+.topdrop{
+  width:0px;
+  left:0px;
+  transform:translateY(-15px);
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 25px solid #7c2be4;
 }
 
-button:hover {
-  border-radius: 100px 100px 20px 20px;
-  height: 65px;
-  width: 200px;
+@keyframes dropDown{
+  0%{
+    transform:translateY(-10px) scaleX(1.5);
+  }
+  40%{
+    transform:translateY(0px);
+  }
+  100%{
+    transform:translateY(1000px)
+  }
 }
 
-button:hover .scale {
-  letter-spacing: 5px;
-  font-size: 25px;
-  transition: 1s;
+.raindrop1{
+  right:20px;
+  animation: dropDown 4s infinite;
 }
 
-.rotate-1, .rotate-2, .rotate-3, .rotate-4 {
-  transition: 1s;
+.raindrop2{
+  left:30px;
+  animation: dropDown 4s 1s infinite;
 }
 
-button:hover .rotate-1 {
-  transform: rotate(15deg);
+.raindrop3{
+  left:120px;
+  animation: dropDown 4s 1.5s infinite;
 }
-
-button:hover .rotate-2 {
-  transform: rotate(-15deg);
-}
-
-button:hover .rotate-3 {
-  transform: rotate(10deg);
-}
-
-button:hover .rotate-4 {
-  transform: rotate(-25deg);
-}
-
-button:active {
-  filter: hue-rotate(90deg);
-}
-
-
-
 
 
 h1{
