@@ -48,7 +48,6 @@ body {
   background:#f69ab8;
   transform: scale(1.1);
   transition: all 0.5s ease;
-
 }
 a{
   text-align: center;
@@ -241,4 +240,27 @@ margin: 0 20px;
 
 .image {
   width: 320px;
+}
+@media screen and (min-width: 320px) and (max-width: 568px) {
+body{
+    overflow-x: hidden;
+
+  }
+h1{
+  font-size: 2em;
+}
+
+.center{
+  margin-left: 37%;
+  width:150px;
+  height:40px;
+  top:18%;
+
+}
+.center .button {
+  font-size: 1em;
+
+}
+.container{
+display:inline-block;
 }
