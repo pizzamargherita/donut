@@ -15,7 +15,7 @@ body {
   background-image: linear-gradient(30deg, #7c2be4, #8E78FF);
 }
 .caixa{
-  padding: 5em;
+  padding-left: 10%;
 }
 
 .center{
@@ -251,10 +251,10 @@ h1{
 }
 
 .center{
-  margin-left: 37%;
+  margin-left:42%;
   width:150px;
   height:40px;
-  top:18%;
+  top:35%;
 
 }
 .center .button {
@@ -262,5 +262,65 @@ h1{
 
 }
 .container{
-display:inline-block;
+padding-top: 2em;
+}
+.container .card {
+  position: relative;
+  width: 260px;
+  height: 350px;
+}
+
+
+.container .card:hover:before {
+  clip-path: circle(200px at 80% -20%);
+}
+
+.container .card .imgBx {
+  position: absolute;
+  top:40%;
+  transform: translateY(-30%);
+  width: 100%;
+  height: 220px;
+  transition: 0.5s;
+}
+
+
+.container .card .imgBx img{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-25deg);
+  width: 220px;
+
+}
+
+.container .card:hover .contentBx {
+  height: 210px;
+}
+
+.container .card .contentBx h2 {
+
+  position: relative;
+  padding: 1em;
+  font-size: 1.2em;
+  font-weight: 600;
+  
+}
+
+.container .card .contentBx p, 
+.container .card .contentBx .color {
+  font-size: 0.7em;
+  }
+
+.container .card:hover .contentBx p{
+  opacity: 1;
+  visibility: visible;
+  transition-delay: 0.5s;
+}
+
+/* Button */
+
+.container .card .contentBx a {
+  font-size: 0.8em;
+
 }
