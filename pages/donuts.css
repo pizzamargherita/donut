@@ -269,10 +269,12 @@ padding-top: 2em;
   width: 260px;
   height: 350px;
 }
-
+.container .card:hover .contentBx {
+  height: 110px;
+}
 
 .container .card:hover:before {
-  clip-path: circle(200px at 80% -20%);
+  clip-path: circle(200px at 70% -20%);
 }
 
 .container .card .imgBx {
@@ -303,20 +305,13 @@ padding-top: 2em;
   position: relative;
   padding: 1em;
   font-size: 1.2em;
-  font-weight: 600;
   
 }
 
 .container .card .contentBx p, 
 .container .card .contentBx .color {
-  font-size: 0.7em;
+  font-size: 0.9em;
   }
-
-.container .card:hover .contentBx p{
-  opacity: 1;
-  visibility: visible;
-  transition-delay: 0.5s;
-}
 
 /* Button */
 
