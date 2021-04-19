@@ -254,7 +254,7 @@ h1{
   margin-left:25%;
   width:250px;
   height:40px;
-  top:35%;
+  top:50%;
 
 }
 .center .button {
@@ -307,16 +307,20 @@ padding-top: 2em;
   }
 
 /* Button */
-
 .container .card .contentBx a {
   font-size: 0.8em;
 }
-@media screen and (min-width: 375px) and (max-width: 736px) {
+@media screen and (min-width: 375px) and (max-width: 667px) {
   .center{
     margin-left:25%;
     width:250px;
     height:40px;
-    top:30%;
+    top:35%;
   }
-}
-}
+  @media only screen and (min-device-width: 375px) and (min-device-height: 812px) {
+    .center{
+      margin-left:25%;
+      width:250px;
+      height:40px;
+      top:30%;
+    }
